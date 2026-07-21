@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>String Matching Algorithms</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#eef;
+text-align:center;
+}
+
+.box{
+
+background:white;
+width:500px;
+margin:auto;
+padding:30px;
+margin-top:50px;
+border-radius:10px;
+
+}
+
+input{
+
+padding:10px;
+width:90%;
+margin:10px;
+
+}
+
+button{
+
+padding:10px;
+background:blue;
+color:white;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="box">
+
+<h1>
+Naive vs Rabin-Karp vs KMP
+</h1>
+
+
+<form method="POST">
+
+<input name="text" placeholder="Enter Text">
+
+<input name="pattern" placeholder="Enter Pattern">
+
+
+<button>
+Compare
+</button>
+
+</form>
+
+
+{% for key,value in result.items() %}
+
+<h3>{{key}} : {{value}}</h3>
+
+{% endfor %}
+
+
+</div>
+
+</body>
+
+</html>
